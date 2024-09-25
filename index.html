@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CV de Arthur PICQUE</title>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    s
-    </head>
+        <style>
+            h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+            .separateur {
+            width: 1000px;
+            margin:30px 0;
+            height: 3px;
+            background-color: #333;
 
-    <body> 
-        <h1>Arthur PICQUE</h1>
-        <p> <em>Je suis étudiant à l'EPSI<br>
-            je suis assi à côté de Ethan</em>
-        </p>
-        <p><strong>Nom :</strong> <em> Picque</em> <br> 
-            <strong>Prénom :</strong> <em> Arthur</em></p>
-            <p> <strong>Mon Expérience Professionnelle :</strong><br>
-            J'ai éffectué plusieurs stages dans différentes entreprises<br> comme la <em>SNCF</em> ou encore <em>EDF</em></p>
+
+        }
+            .all {
+                font-size: 20px;
+                text-align: left;
+
+            }
             
-           
+            .photo-container img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover; 
+        }
+        </style>
+        
+    </head>
+    <body>
+        <div class="photo-container"></div>
+            <img src="data:image/jpeg;base64,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" alt="Photo de Arthur Picque">
+        </div>
+        <div class ="h1">
+            <h1>Arthur PICQUE</h1><br>
+             <h3> Arthur.picque26@gmail.Com </h3> <br>
+             <h3>06 47 17 45 29 </h3>
+        </div>
+        <div class="separateur"></div>
+        <div class="all">
+            <h2>Compétences</h2>
+            <p><strong>PowerPoint/Word/Excel/Canva :</strong> Connaissances pour la réalisation de présentation.</p>
+            <p><strong>Langages de Programmation :</strong> J'ai les bases dans plusieurs langages comme le C, le SQL, le Python et le HTML.</p>
+            <p><strong>Travail en équipe :</strong> En tant que joueur de rugby, le travail en équipe est particulièrement important pour moi. De plus, je suis détenteur du BAFA et j'ai de l'expérience dans le social, aussi bien avec les enfants qu'avec les adultes. Le savoir-vivre est une qualité présente dans mon caractère.</p>
+        </div>
+        <div class="separateur"></div>
     </body>
-
-
-
-
 </html>
