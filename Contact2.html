@@ -5,16 +5,16 @@
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e08a8a;
+            margin: 10;
+            padding: 10;
+            background-color: #ffffff;
         }
         .main {
             width: 60%;
-            margin: 30px auto;
+            margin: 50px auto;
             background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+            padding: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             text-align: center; 
         }
         </style>
@@ -25,6 +25,30 @@
 
         <h1>Contactez moi </h1>
         <a href="C:\Users\Arthu\Documents\EPSI\SN1_cours\HTML\Arthur6222.github.io\index.html">Acceuil</a>
+        <br><br>
+        
+        <form action="/envoyer_formulaire" method="post">
+            
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" requis >
+            <br><br>
+            <label for="Prénom">Prénom :</label>
+            <input type="text" id="prénom" name="prénom" requis>
+            <br><br>
+            <label for="E-mail">E-mail :</label>
+            <input type="text" id="e-mail"name="e-mail" requis>
+            <br><br>
+            <label>Genre :</label>
+            <input type="radio" id="homme" name="genre" value="homme">
+            <label for="homme">Homme</label>
+            <input type="radio" id="femme" name="genre" value="femme">
+            <label for="femme">Femme</label>
+            <br><br>
+
+            <button type="submit">Envoyer</button>
+
+            
+        </form>
         </div>
     </body>
 </html>
