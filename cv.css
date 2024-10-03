@@ -6,6 +6,102 @@
     color: purple !important;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e08a8a;
+}
+.main {
+    width: 60%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    text-align: center; 
+}
+
+
+h1 {
+    
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.photo {
+    text-align: right; 
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+}
+
+.titre-rouge {
+    color: red;
+}
+
+
+.all {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.all h2 {
+    font-size: 25px;
+    color: #333;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+
+.all p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.all p strong {
+    color: #333;
+}
+.separateur {
+    width: 100%;
+    margin:30px 0;
+    height: 3px;
+    background-color: #333;
+
+
+}
+a:hover{
+    color:pink;
+}
+.ecriture{
+    width: 60%;
+    margin: auto;
+    padding: 110px;
+    background-color: aliceblue;
+    position:absolute;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px black;
+    border:2px solid grey
+        
+    }
+    .epsi{
+        position:absolute;
+        right:1em;
+        top:1em;
+        color:aliceblue;
+    }
+    
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    }
+
 
 
 
