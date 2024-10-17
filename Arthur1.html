@@ -51,5 +51,17 @@
             
         </form>
         </div>
+        Bonjour <p id="valueNom"></p>
+        <script>
+            /*document.getElementById("nom").addEventListener("change", function(){
+                document.getElementById("valueNom").innerHTML = document.getElementById("nom").value;
+            });*/
+          
+            document.getElementById("nom").addEventListener("input", function(){
+            console.log("le nom est : " + document.getElementById("nom").value);
+            });
+        </script>
+        <?php> echo "hello world";
+        ?>
     </body>
 </html>
