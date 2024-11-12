@@ -26,13 +26,18 @@
         <h1><strong>Arthur Picque </strong></h1>
         <h2>0123456789</h2>
         <h2 id="email">Arthur.picque26@gmail.Com</h2>
-        <a href="index.html">Retour à l'acceuil</a>
+        <a href="index.php">Retour à l'acceuil</a>
         </div>
     
 
 
     </div>
-    
+   
+<?php
+include("menu.php");
+?>
+
 </body>
+
 
 </html>
